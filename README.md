@@ -43,7 +43,7 @@ For a complete list, refer to `requirements.txt`.
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/rajkumaranbalagan07/llm-tutorials)
    cd your-repo-name
    ```
 
@@ -93,10 +93,4 @@ Obtain the following API keys and add them to your `.env` file:
 
 Load environment variables in Python:
 
-python
-from dotenv import load_dotenv
-import os
-load_dotenv()
-openai_api_key = os.getenv('OPENAI_API_KEY')
-anthropic_api_key = os.getenv('ANTHROPIC_API_KEY')
-deepgram_api_key = os.getenv('DEEPGRAM_API_KEY')
+
