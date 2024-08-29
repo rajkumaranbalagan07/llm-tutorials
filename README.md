@@ -44,7 +44,7 @@ For a complete list, refer to `requirements.txt`.
 1. Clone the repository:
    ```
    git clone https://github.com/rajkumaranbalagan07/llm-tutorials
-   cd your-repo-name
+   cd llm-tutorials
    ```
 
 2. Create and activate a virtual environment:
