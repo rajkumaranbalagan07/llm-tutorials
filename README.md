@@ -43,7 +43,7 @@ For a complete list, refer to `requirements.txt`.
 
 1. Clone the repository:
    ```
-   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/rajkumaranbalagan07/llm-tutorials)
+   git clone https://github.com/rajkumaranbalagan07/llm-tutorials
    cd your-repo-name
    ```
 
