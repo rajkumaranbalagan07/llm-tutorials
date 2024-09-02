@@ -13,14 +13,32 @@ This project leverages various AI and multimedia processing libraries to handle 
 - [Contributing](#contributing)
 - [License](#license)
 
+
 ## Projects Overview
 
 This repository contains several AI-powered projects:
 
-1. **Multimedia Processing**: Handles video editing, PDF manipulation, and image conversion.
-2. **Natural Language Processing**: Utilizes LangChain and OpenAI for advanced NLP tasks.
-3. **Speech Recognition**: Implements Deepgram for audio transcription and analysis.
-4. **AI Model Integration**: Incorporates both OpenAI and Anthropic models for various AI tasks.
+1. **Joke Generator Agent**: Creates and refines jokes using AI models, targeting engineering students with tech-related humor.
+   - File: `agents/joke_agent.py`
+
+2. **Marksheet Extraction**: Extracts information from 12th-grade marksheet PDFs using OCR and AI.
+   - File: `vision/12_marksheet_extraction.py`
+
+3. **Vision Chat Assistant**: Processes and analyzes images to generate chat responses.
+   - File: `vision/vision_chat_assistant.py`
+
+4. **Video Generator Agent**: Creates short sigma lifestyle motivation videos for YouTube, including planning, script generation, audio creation, and video compilation.
+   - File: `agents/video_generator/video_generator_agent.py`
+
+5. **Tamil Movie Plot Generator**: Generates detailed Tamil movie plots and scripts, including characters, settings, and a scene-by-scene breakdown.
+   - File: `generation/text_movie_plot_generator.py`
+
+6. **VAPI Basic Example**: Demonstrates basic usage of the Voice API for interactive voice assistants, with customizable context and voice settings.
+   - File: `agents/sts/vapi_basic.py`
+
+7. **Ollama Local LLM Extraction**: (Mentioned in the conversation history, but code not provided in the snippets)
+
+Each project utilizes various AI and multimedia processing libraries to handle tasks such as natural language processing, speech recognition, image analysis, and video creation.
 
 ## Dependencies
 
